@@ -13,9 +13,10 @@ Web player is
 Uses up to 1 gb of shared memory, to avoid frequently rewriting HLS/Dash framents to micro sd card on Rasperry Pi.
 Make sure the host has sufficient RAM.
 # Usage
+´docker´ and ´docker-compose´ should be available on host.
 Build image and run container using the following command:
 ```
-docker-compose . --build
+docker-compose up --build
 ```
 Stream to the container on address
 ```
