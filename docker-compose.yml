@@ -1,0 +1,7 @@
+services:
+  stream:
+    build: .
+    ports:
+      - "1935:1935"
+      - "8080:8080"
+    shm_size: '1gb'
